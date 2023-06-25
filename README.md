@@ -35,7 +35,7 @@
 
 ## Previsualizacion
 
-![screenshot](https://raw.githubusercontent.com/JulianGT-2001/404-page-challenge/main/Img/404-page.png)
+![screenshot](https://raw.githubusercontent.com/JulianGT-2001/my-team-page-challenge/main/Screenshoot.png)
 
 La experiencia de este reto ha sido satisfactoria, he recordado conceptos basicos de HTML y CSS y he aplicado herramientas que no había usado antes como los son los media queries para realizar está pagina responsiva.
 
