@@ -2,94 +2,90 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
+    <meta name="viewport"content="width=device-width, initial-scale=1,maximum-scale=5"/>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>My Team Page</title>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <header>
+      <div class="header__title_container">
+        <h1 class="header__title">The creative crew</h1>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
-    </div>
+      <div class="header__description">
+        <div class="header__description_title_container">
+          <h2 class="header__description_title">WHO WE ARE</h2>
+        </div>
+
+        <div class="header__description_container">
+          <p class="header__description_text">We are team of creatively diverse.  driven.  innovative individuals working in various locations from the world.</p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <figure class="main__image_bill_container">
+        <div class="main__image_bill_charge_container">
+          <p class="main_image_bill_charge">PRODUCT OWNER</p>
+        </div>
+        <img src="photo1.png" alt="Bill Mahoney" class="main__image_bill">
+        <figcaption class="main__image_bill_description">Bill Mahoney</figcaption>
+      </figure>
+
+      <figure class="main__image_saba_container">
+        <div class="main__image_saba_charge_container">
+          <p class="main_image_saba_charge">ART DIRECTOR</p>
+        </div>
+        
+        <img src="photo2.png" alt="Saba Cabrera" class="main__image_saba">
+        <figcaption class="main__image_saba_description">Saba Cabrera</figcaption>
+      </figure>
+
+      <figure class="main__image_shae_container">
+        <div class="main__image_shae_charge_container">
+          <p class="main_image_shae_charge">TECH LEAD</p>
+        </div>
+        <img src="photo3.png" alt="Shae Le" class="main__image_shae">
+        <figcaption class="main__image_shae_description">Shae Le</figcaption>
+      </figure>
+
+      <figure class="main__image_skylah_container">
+        <div class="main__image_skylah_charge_container">
+          <p class="main_image_skylah_charge">UX DESIGNER</p>
+        </div>
+        <img src="photo4.png" alt="Skylah Lu" class="main__image_skylah">
+        <figcaption class="main__image_skylah_description">Skylah Lu</figcaption>
+      </figure>
+
+      <figure class="main__image_griff_container">
+        <div class="main__image_griff_charge_container">
+          <p class="main_image_griff_charge">DEVELOPER</p>
+        </div>
+        <img src="photo5.png" alt="Griff Richards" class="main__image_griff">
+        <figcaption class="main__image_griff_description">Griff Richards</figcaption>
+      </figure>
+
+      <figure class="main__image_stan_container">
+        <div class="main__image_stan_charge_container">
+          <p class="main_image_stan_charge">DEVELOPER</p>
+        </div>
+        <img src="photo6.png" alt="Stan John" class="main__image_stan">
+        <figcaption class="main__image_stan_description">Stan John</figcaption>
+      </figure>
+    </main>
+
+    <footer>
+      <div class="footer__credits_container">
+        <p class="footer__credits">created by <b>JulianGT-2001</b> - devChallenges.io</p>
+      </div>
+    </footer>
   </body>
 </html>
